@@ -1,0 +1,33 @@
+2019-09-10 19:50:29,726 mysql_action.py[line:10] INFO ==========init data===========
+2019-09-10 19:50:29,726 mysql_action.py[line:11] INFO connect db...
+2019-09-10 19:50:29,742 mysql_action.py[line:47] INFO init db...
+2019-09-10 19:50:29,742 mysql_action.py[line:15] INFO clear db...
+2019-09-10 19:50:29,761 mysql_action.py[line:24] INFO insert db...
+2019-09-10 19:50:29,761 mysql_action.py[line:31] INFO id,username,email,groups
+2019-09-10 19:50:29,761 mysql_action.py[line:32] INFO '1','sutune','sutune@163.com','http://127.0.0.1:8000/groups/1/'
+2019-09-10 19:50:29,761 mysql_action.py[line:35] INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com','http://127.0.0.1:8000/groups/1/');
+2019-09-10 19:50:29,764 mysql_action.py[line:24] INFO insert db...
+2019-09-10 19:50:29,765 mysql_action.py[line:31] INFO id,username,email,groups
+2019-09-10 19:50:29,765 mysql_action.py[line:32] INFO '2','51zxw','51zxw@163.com','http://127.0.0.1:8000/groups/2/'
+2019-09-10 19:50:29,765 mysql_action.py[line:35] INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com','http://127.0.0.1:8000/groups/2/');
+2019-09-10 19:50:29,770 mysql_action.py[line:15] INFO clear db...
+2019-09-10 19:50:29,789 mysql_action.py[line:24] INFO insert db...
+2019-09-10 19:50:29,789 mysql_action.py[line:31] INFO id,name
+2019-09-10 19:50:29,789 mysql_action.py[line:32] INFO '1','Developer'
+2019-09-10 19:50:29,789 mysql_action.py[line:35] INFO insert into api_group(id,name)values('1','Developer');
+2019-09-10 19:50:29,792 mysql_action.py[line:24] INFO insert db...
+2019-09-10 19:50:29,792 mysql_action.py[line:31] INFO id,name
+2019-09-10 19:50:29,792 mysql_action.py[line:32] INFO '2','Tester'
+2019-09-10 19:50:29,792 mysql_action.py[line:35] INFO insert into api_group(id,name)values('2','Tester');
+2019-09-10 19:50:29,798 mysql_action.py[line:42] INFO close db...
+2019-09-10 19:50:29,798 mysql_action.py[line:44] INFO ======init data finished======
+2019-09-10 19:50:29,933 run.py[line:34] INFO ========Start API Test========
+2019-09-10 19:50:29,933 test_django_restful.py[line:57] INFO ===test_001_group_developer===
+2019-09-10 19:50:30,070 test_django_restful.py[line:63] INFO ======test_002_add_group======
+2019-09-10 19:50:30,187 test_django_restful.py[line:70] INFO ====test_003_update_group=====
+2019-09-10 19:50:30,296 test_django_restful.py[line:77] INFO ====test_004_delete_group=====
+2019-09-10 19:50:30,404 test_django_restful.py[line:16] INFO ======test_001_get_user=======
+2019-09-10 19:50:30,510 test_django_restful.py[line:24] INFO ======test_002_add_user=======
+2019-09-10 19:50:30,623 test_django_restful.py[line:33] INFO =====test_003_delete_user=====
+2019-09-10 19:50:30,744 test_django_restful.py[line:38] INFO =====test_004_update_user=====
+2019-09-10 19:50:30,857 test_django_restful.py[line:45] INFO =======test_005_no_auth=======
